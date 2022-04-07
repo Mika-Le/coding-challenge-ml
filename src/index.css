@@ -1,0 +1,53 @@
+li {
+    cursor: pointer;
+}
+
+input {
+    width: 400px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header{
+    margin: 4vh 0;
+}
+
+.search-container {
+    position: relative;
+}
+
+.character-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+    padding: 5px;
+    border: 1px gray solid;
+}
+
+.suggestions {
+    list-style-type: none;
+    list-style-position: outside;
+    background-color: white;
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    padding-left: 3px;
+    width: 400px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-color: white;
+    align-self: center;
+}
