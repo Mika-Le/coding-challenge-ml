@@ -143,7 +143,7 @@ class RaM extends React.Component {
       <div className='container'>
         <div className='header'>
           <h1>Coding Challenge: Rick and Morty</h1>
-          <label>Mareike Leja</label>
+          <label>by Mareike Leja</label>
         </div>
         <div className='row'>
           <div className='col-12'>

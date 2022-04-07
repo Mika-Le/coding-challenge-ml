@@ -2,6 +2,14 @@ li {
     cursor: pointer;
 }
 
+li:hover {
+    background-color: lightgray;
+}
+
+li:active {
+    background-color: gray;
+}
+
 input {
     width: 400px;
 }
